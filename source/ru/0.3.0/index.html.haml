@@ -18,9 +18,8 @@ version: 0.3.0
   хронологическом порядке список значимых изменений для каждой версии проекта с
   открытым исходным кодом.
 
-%pre.changelog= File.read("CHANGELOG.md")
+  <pre class="changelog">#{File.read("CHANGELOG.md")}</pre>
 
-:markdown
   ### Для чего нужен лог изменений?
 
   Чтобы пользователи и контрибьюторы могли с меньшими усилиями точно
@@ -52,7 +51,7 @@ version: 0.3.0
   - Релизы перечислены в обратном хронологическом порядке (самые новые –
     сверху).
   - Пишите все даты в формате `YYYY-MM-DD`. (Например: `2012-06-02` для даты `2
-    июня 2012`.) Он международный, [рациональный](http://xkcd.com/1179/), и
+    июня 2012`.) Он международный, [рациональный](https://xkcd.com/1179/), и
     независим от языка.
   - Ясно указывает, использует ли проект [Семантическое
     Версионирование][semver].
@@ -207,7 +206,7 @@ version: 0.3.0
   [gemnasium]: https://gemnasium.com/
   [gh]: https://github.com/olivierlacan/keep-a-changelog
   [issues]: https://github.com/olivierlacan/keep-a-changelog/issues
-  [semver]: http://semver.org/
-  [shields]: http://shields.io/
-  [thechangelog]: http://5by5.tv/changelog/127
+  [semver]: https://semver.org/
+  [shields]: https://shields.io/
+  [thechangelog]: https://changelog.com/podcast/127
   [vandamme]: https://github.com/tech-angels/vandamme/

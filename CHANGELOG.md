@@ -1,31 +1,69 @@
-# Change Log
+# Changelog
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](http://keepachangelog.com/) 
-and this project adheres to [Semantic Versioning](http://semver.org/).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Update and improvement of Polish translation from [@m-aciek](https://github.com/m-aciek).
+
+## [1.0.0] - 2017-06-20
 ### Added
-- zh-CN and zh-TW translations from @tianshuo.
-- de translation from @mpbzh.
-- it-IT translation from @roalz.
-- sv translation from @magol.
-- tr-TR translation from @karalamalar.
+- New visual identity by [@tylerfortune8](https://github.com/tylerfortune8).
+- Version navigation.
+- Links to latest released version in previous versions.
+- "Why keep a changelog?" section.
+- "Who needs a changelog?" section.
+- "How do I make a changelog?" section.
+- "Frequently Asked Questions" section.
+- New "Guiding Principles" sub-section to "How do I make a changelog?".
+- Simplified and Traditional Chinese translations from [@tianshuo](https://github.com/tianshuo).
+- German translation from [@mpbzh](https://github.com/mpbzh) & [@Art4](https://github.com/Art4).
+- Italian translation from [@azkidenz](https://github.com/azkidenz).
+- Swedish translation from [@magol](https://github.com/magol).
+- Turkish translation from [@karalamalar](https://github.com/karalamalar).
+- French translation from [@zapashcanon](https://github.com/zapashcanon).
+- Brazilian Portugese translation from [@Webysther](https://github.com/Webysther).
+- Polish translation from [@amielucha](https://github.com/amielucha).
+- Russian translation from [@aishek](https://github.com/aishek).
+- Czech translation from [@h4vry](https://github.com/h4vry).
+- Slovak translation from [@jkostolansky](https://github.com/jkostolansky).
+- Korean translation from [@pierceh89](https://github.com/pierceh89).
+- Croatian translation from [@porx](https://github.com/porx).
 
 ### Changed
+- Start using "changelog" over "change log" since it's the common usage.
 - Start versioning based on the current English version at 0.3.0 to help
 translation authors keep things up-to-date.
+- Rewrite "What makes unicorns cry?" section.
+- Rewrite "Ignoring Deprecations" sub-section to clarify the ideal
+  scenario.
+- Improve "Commit log diffs" sub-section to further argument against
+  them.
+- Merge "Why can’t people just use a git log diff?" with "Commit log
+  diffs"
+- Fix typos in Simplified Chinese and Traditional Chinese translations.
+- Fix typos in Brazilian Portuguese translation.
+- Fix typos in Turkish translation.
+- Fix typos in Czech translation.
+- Fix typos in Swedish translation.
+- Improve phrasing in French translation.
+- Fix phrasing and spelling in German translation.
+
+### Removed
+- Section about "changelog" vs "CHANGELOG".
 
 ## [0.3.0] - 2015-12-03
 ### Added
-- RU translation from @aishek.
-- pt-BR translation from @tallesl.
-- es-ES translation from @ZeliosAriex.
+- RU translation from [@aishek](https://github.com/aishek).
+- pt-BR translation from [@tallesl](https://github.com/tallesl).
+- es-ES translation from [@ZeliosAriex](https://github.com/ZeliosAriex).
 
 ## [0.2.0] - 2015-10-06
 ### Changed
-- Remove exclusionary mentions of "open source" since this project can benefit
-both "open" and "closed" source projects equally.
+- Remove exclusionary mentions of "open source" since this project can
+benefit both "open" and "closed" source projects equally.
 
 ## [0.1.0] - 2015-10-06
 ### Added
@@ -33,7 +71,7 @@ both "open" and "closed" source projects equally.
 
 ### Changed
 - Improve argument against commit logs.
-- Start following [SemVer](http://semver.org) properly.
+- Start following [SemVer](https://semver.org) properly.
 
 ## [0.0.8] - 2015-02-17
 ### Changed
@@ -91,13 +129,15 @@ notable changes.
 
 ## 0.0.1 - 2014-05-31
 ### Added
-- This CHANGELOG file to hopefully serve as an evolving example of a standardized open source project CHANGELOG.
+- This CHANGELOG file to hopefully serve as an evolving example of a
+  standardized open source project CHANGELOG.
 - CNAME file to enable GitHub Pages custom domain
 - README now contains answers to common questions about CHANGELOGs
 - Good examples and basic guidelines, including proper date formatting.
 - Counter-examples: "What makes unicorns cry?"
 
-[Unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.3.0...v1.0.0
 [0.3.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.1.0...v0.2.0
 [0.1.0]: https://github.com/olivierlacan/keep-a-changelog/compare/v0.0.8...v0.1.0
